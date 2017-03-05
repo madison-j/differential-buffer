@@ -1357,14 +1357,18 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="differential-buffer" deviceset="AD8421" device=""/>
-<part name="OUT_CH0" library="connector-jqi" deviceset="BNC" device="-H"/>
+<part name="U1" library="differential-buffer" deviceset="AD8421" device="">
+<attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
+</part>
+<part name="OUT_CH0" library="connector-jqi" deviceset="BNC" device="-H">
+<attribute name="PARTNO" value="A32260-ND"/>
+</part>
 <part name="GND12" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="IN_CH0" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
 <attribute name="PARTNO" value="A32260-ND"/>
 </part>
-<part name="R2" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNP10.0KAACT-ND"/>
+<part name="R2" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
+<attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
 <part name="GND1" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="C3" library="Eurocard-HV-piezo-driver" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
@@ -1391,18 +1395,26 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="GND2" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="GND3" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
-<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
-<part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
+<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
+<part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
 <part name="GND4" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="RG0" library="jqi_passives" deviceset="R_SMD" device="R0402"/>
-<part name="U2" library="differential-buffer" deviceset="AD8421" device=""/>
-<part name="OUT_CH1" library="connector-jqi" deviceset="BNC" device="-H"/>
+<part name="RG0" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
+<part name="U2" library="differential-buffer" deviceset="AD8421" device="">
+<attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
+</part>
+<part name="OUT_CH1" library="connector-jqi" deviceset="BNC" device="-H">
+<attribute name="PARTNO" value="A32260-ND"/>
+</part>
 <part name="GND5" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="IN_CH1" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
 <attribute name="PARTNO" value="A32260-ND"/>
 </part>
-<part name="R4" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNP10.0KAACT-ND"/>
+<part name="R4" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
+<attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
 <part name="GND6" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="C5" library="Eurocard-HV-piezo-driver" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
@@ -1429,18 +1441,26 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="GND9" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="GND10" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
-<part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
-<part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
+<part name="R5" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
+<part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
 <part name="GND11" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="RG1" library="jqi_passives" deviceset="R_SMD" device="R0402"/>
-<part name="U3" library="differential-buffer" deviceset="AD8421" device=""/>
-<part name="OUT_CH2" library="connector-jqi" deviceset="BNC" device="-H"/>
+<part name="RG1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
+<part name="U3" library="differential-buffer" deviceset="AD8421" device="">
+<attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
+</part>
+<part name="OUT_CH2" library="connector-jqi" deviceset="BNC" device="-H">
+<attribute name="PARTNO" value="A32260-ND"/>
+</part>
 <part name="GND13" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="IN_CH2" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
 <attribute name="PARTNO" value="A32260-ND"/>
 </part>
-<part name="R7" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNP10.0KAACT-ND"/>
+<part name="R7" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
+<attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
 <part name="GND14" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="C9" library="Eurocard-HV-piezo-driver" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
@@ -1467,18 +1487,26 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="GND17" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="GND18" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
-<part name="R8" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
-<part name="R9" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
+<part name="R8" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
+<part name="R9" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
 <part name="GND19" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="RG2" library="jqi_passives" deviceset="R_SMD" device="R0402"/>
-<part name="U4" library="differential-buffer" deviceset="AD8421" device=""/>
-<part name="OUT_CH3" library="connector-jqi" deviceset="BNC" device="-H"/>
+<part name="RG2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
+<part name="U4" library="differential-buffer" deviceset="AD8421" device="">
+<attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
+</part>
+<part name="OUT_CH3" library="connector-jqi" deviceset="BNC" device="-H">
+<attribute name="PARTNO" value="A32260-ND"/>
+</part>
 <part name="GND20" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="IN_CH3" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
 <attribute name="PARTNO" value="A32260-ND"/>
 </part>
-<part name="R10" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNP10.0KAACT-ND"/>
+<part name="R10" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
+<attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
 <part name="GND21" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="C13" library="Eurocard-HV-piezo-driver" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
@@ -1505,14 +1533,24 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="GND24" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="GND25" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
-<part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R"/>
+<part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
+<part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9R">
+<attribute name="PARTNO" value="P49.9HCT-ND"/>
+</part>
 <part name="GND26" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="RG3" library="jqi_passives" deviceset="R_SMD" device="R0402"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="RG3" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X3" device="">
+<attribute name="PARTNO" value="WM4201-ND"/>
+</part>
 <part name="GND27" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="C17" library="jqi_passives" deviceset="C_POL_SMD" device="F"/>
-<part name="C18" library="jqi_passives" deviceset="C_POL_SMD" device="F"/>
+<part name="C17" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220uF">
+<attribute name="PARTNO" value="PCE3955CT-ND"/>
+</part>
+<part name="C18" library="jqi_passives" deviceset="C_POL_SMD" device="F" value="220uF">
+<attribute name="PARTNO" value="PCE3955CT-ND"/>
+</part>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="P-4" library="Eurocard-HV-piezo-driver" deviceset="V-" device=""/>
 </parts>
@@ -1521,8 +1559,12 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="25.4" y="63.5"/>
-<instance part="OUT_CH0" gate="G$1" x="68.58" y="66.04" rot="MR0"/>
+<instance part="U1" gate="G$1" x="25.4" y="63.5">
+<attribute name="PARTNO" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="OUT_CH0" gate="G$1" x="68.58" y="66.04" rot="MR0">
+<attribute name="PARTNO" x="68.58" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND12" gate="1" x="-22.86" y="22.86"/>
 <instance part="IN_CH0" gate="G$1" x="-25.4" y="55.88">
 <attribute name="PARTNO" x="-25.4" y="55.88" size="1.778" layer="96" display="off"/>
@@ -1555,12 +1597,20 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="GND2" gate="1" x="7.62" y="81.28" rot="MR0"/>
 <instance part="GND3" gate="1" x="0" y="81.28" rot="MR0"/>
 <instance part="P+1" gate="1" x="-20.32" y="104.14" rot="MR0"/>
-<instance part="R1" gate="G$1" x="-22.86" y="33.02" rot="R90"/>
-<instance part="R3" gate="G$1" x="53.34" y="66.04" rot="R180"/>
+<instance part="R1" gate="G$1" x="-22.86" y="33.02" rot="R90">
+<attribute name="PARTNO" x="-22.86" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="53.34" y="66.04" rot="R180">
+<attribute name="PARTNO" x="53.34" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="45.72" y="58.42"/>
 <instance part="RG0" gate="G$1" x="2.54" y="63.5" rot="R90"/>
-<instance part="U2" gate="G$1" x="20.32" y="154.94"/>
-<instance part="OUT_CH1" gate="G$1" x="63.5" y="157.48" rot="MR0"/>
+<instance part="U2" gate="G$1" x="20.32" y="154.94">
+<attribute name="PARTNO" x="20.32" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="OUT_CH1" gate="G$1" x="63.5" y="157.48" rot="MR0">
+<attribute name="PARTNO" x="63.5" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="-27.94" y="114.3"/>
 <instance part="IN_CH1" gate="G$1" x="-30.48" y="147.32">
 <attribute name="PARTNO" x="-30.48" y="147.32" size="1.778" layer="96" display="off"/>
@@ -1593,12 +1643,20 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="GND9" gate="1" x="2.54" y="172.72" rot="MR0"/>
 <instance part="GND10" gate="1" x="-5.08" y="172.72" rot="MR0"/>
 <instance part="P+2" gate="1" x="-25.4" y="195.58" rot="MR0"/>
-<instance part="R5" gate="G$1" x="-27.94" y="124.46" rot="R90"/>
-<instance part="R6" gate="G$1" x="48.26" y="157.48" rot="R180"/>
+<instance part="R5" gate="G$1" x="-27.94" y="124.46" rot="R90">
+<attribute name="PARTNO" x="-27.94" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="48.26" y="157.48" rot="R180">
+<attribute name="PARTNO" x="48.26" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="40.64" y="149.86"/>
 <instance part="RG1" gate="G$1" x="-2.54" y="154.94" rot="R90"/>
-<instance part="U3" gate="G$1" x="-96.52" y="157.48"/>
-<instance part="OUT_CH2" gate="G$1" x="-53.34" y="160.02" rot="MR0"/>
+<instance part="U3" gate="G$1" x="-96.52" y="157.48">
+<attribute name="PARTNO" x="-96.52" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="OUT_CH2" gate="G$1" x="-53.34" y="160.02" rot="MR0">
+<attribute name="PARTNO" x="-53.34" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="-144.78" y="116.84"/>
 <instance part="IN_CH2" gate="G$1" x="-147.32" y="149.86">
 <attribute name="PARTNO" x="-147.32" y="149.86" size="1.778" layer="96" display="off"/>
@@ -1631,12 +1689,20 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="GND17" gate="1" x="-114.3" y="175.26" rot="MR0"/>
 <instance part="GND18" gate="1" x="-121.92" y="175.26" rot="MR0"/>
 <instance part="P+3" gate="1" x="-142.24" y="198.12" rot="MR0"/>
-<instance part="R8" gate="G$1" x="-144.78" y="127" rot="R90"/>
-<instance part="R9" gate="G$1" x="-68.58" y="160.02" rot="R180"/>
+<instance part="R8" gate="G$1" x="-144.78" y="127" rot="R90">
+<attribute name="PARTNO" x="-144.78" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R9" gate="G$1" x="-68.58" y="160.02" rot="R180">
+<attribute name="PARTNO" x="-68.58" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND19" gate="1" x="-76.2" y="152.4"/>
 <instance part="RG2" gate="G$1" x="-119.38" y="157.48" rot="R90"/>
-<instance part="U4" gate="G$1" x="-101.6" y="66.04"/>
-<instance part="OUT_CH3" gate="G$1" x="-58.42" y="68.58" rot="MR0"/>
+<instance part="U4" gate="G$1" x="-101.6" y="66.04">
+<attribute name="PARTNO" x="-101.6" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="OUT_CH3" gate="G$1" x="-58.42" y="68.58" rot="MR0">
+<attribute name="PARTNO" x="-58.42" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="-149.86" y="25.4"/>
 <instance part="IN_CH3" gate="G$1" x="-152.4" y="58.42">
 <attribute name="PARTNO" x="-152.4" y="58.42" size="1.778" layer="96" display="off"/>
@@ -1669,14 +1735,24 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="GND24" gate="1" x="-119.38" y="83.82" rot="MR0"/>
 <instance part="GND25" gate="1" x="-127" y="83.82" rot="MR0"/>
 <instance part="P+4" gate="1" x="-147.32" y="106.68" rot="MR0"/>
-<instance part="R11" gate="G$1" x="-149.86" y="35.56" rot="R90"/>
-<instance part="R12" gate="G$1" x="-73.66" y="68.58" rot="R180"/>
+<instance part="R11" gate="G$1" x="-149.86" y="35.56" rot="R90">
+<attribute name="PARTNO" x="-149.86" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="-73.66" y="68.58" rot="R180">
+<attribute name="PARTNO" x="-73.66" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND26" gate="1" x="-81.28" y="60.96"/>
 <instance part="RG3" gate="G$1" x="-124.46" y="66.04" rot="R90"/>
-<instance part="JP1" gate="A" x="88.9" y="182.88"/>
+<instance part="JP1" gate="A" x="88.9" y="182.88">
+<attribute name="PARTNO" x="88.9" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND27" gate="1" x="63.5" y="177.8"/>
-<instance part="C17" gate="G$1" x="63.5" y="187.96"/>
-<instance part="C18" gate="G$1" x="71.12" y="180.34"/>
+<instance part="C17" gate="G$1" x="63.5" y="187.96">
+<attribute name="PARTNO" x="63.5" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="71.12" y="180.34">
+<attribute name="PARTNO" x="71.12" y="180.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+5" gate="1" x="63.5" y="198.12" rot="MR0"/>
 <instance part="P-4" gate="1" x="71.12" y="170.18" rot="MR0"/>
 </instances>
