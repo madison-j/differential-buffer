@@ -1,0 +1,71 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Eagle
+# =========================
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+
+
+
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Eurocard-HV-piezo-driver.bps
+Eurocard-HV-piezo-driver.bsk
+Eurocard-HV-piezo-driver.tps
+Eurocard-HV-piezo-driver.smb
+Eurocard-HV-piezo-driver.scr
+Eurocard-HV-piezo-driver.slk
+Eurocard-HV-piezo-driver.L4
+Eurocard-HV-piezo-driver.L1
+Eurocard-HV-piezo-driver.L2
+Eurocard-HV-piezo-driver.L3
+Eurocard-HV-piezo-driver.gpi
+Eurocard-HV-piezo-driver.dri
+Eurocard-HV-piezo-driver.drd
+Eurocard-HV-piezo-driver.oln
+Eurocard-HV-piezo-driver.smt
+Eurocard-HV-piezo-driver_ReplaceLibParts.scr
+Transcode Report.txt
