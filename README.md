@@ -6,4 +6,4 @@ Idea here is to buffer monitor channels at the computer without introducing grou
 
 A set of three boards is available from OSHPark for $95; you can also send the gerbers to be manufactured at your board house of choice!
 
-https://oshpark.com/shared_projects/0gu2fTTu
+https://oshpark.com/shared_projects/IT3hNDoY
