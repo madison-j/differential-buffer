@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -346,37 +347,6 @@
 <description>Generated from &lt;b&gt;Eurocard-HV-piezo-driver.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs-replace2.ulp</description>
 <packages>
-<package name="BNC90">
-<description>Right angle BNC. AMP_227161.</description>
-<circle x="0" y="23.94" radius="1.26" width="0" layer="21"/>
-<wire x1="-7.275" y1="-6.875" x2="7.275" y2="-6.875" width="0.2032" layer="21"/>
-<wire x1="7.275" y1="-6.875" x2="7.275" y2="7.275" width="0.2032" layer="21"/>
-<wire x1="7.275" y1="7.275" x2="-7.275" y2="7.275" width="0.2032" layer="21"/>
-<wire x1="-7.275" y1="7.275" x2="-7.275" y2="-6.875" width="0.2032" layer="21"/>
-<wire x1="-6.4" y1="7.375" x2="-6.4" y2="16.025" width="0.2032" layer="21"/>
-<wire x1="-6.4" y1="16.025" x2="6.4" y2="16.025" width="0.2032" layer="21"/>
-<wire x1="6.4" y1="16.025" x2="6.4" y2="7.35" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="16.15" x2="-4.9" y2="28.475" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="28.475" x2="4.9" y2="28.475" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="28.475" x2="4.9" y2="16.125" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="-5.08" drill="0.9" diameter="1.27" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="-5.08" drill="0.9" diameter="1.27" shape="long" rot="R90"/>
-<pad name="ANCHOR1" x="-5.08" y="0" drill="2" diameter="2.032"/>
-<pad name="ANCHOR2" x="5.08" y="0" drill="2" diameter="2.032"/>
-<text x="-3.175" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-</package>
-<package name="BNC-V">
-<description>5227222-1 Vertical BNC connector.</description>
-<wire x1="-7.366" y1="8.0772" x2="7.366" y2="8.0772" width="0.127" layer="21"/>
-<wire x1="7.366" y1="8.0772" x2="7.366" y2="-7.2898" width="0.127" layer="21"/>
-<wire x1="7.366" y1="-7.2898" x2="-7.366" y2="-7.2898" width="0.127" layer="21"/>
-<wire x1="-7.366" y1="-7.2898" x2="-7.366" y2="8.0772" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1" diameter="1.778"/>
-<pad name="2" x="-2.54" y="0" drill="1" diameter="1.778"/>
-<pad name="ANCHOR1" x="-5.08" y="-5.08" drill="2" diameter="2.032"/>
-<pad name="ANCHOR2" x="5.08" y="5.08" drill="2" diameter="2.032"/>
-<text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="R_0402">
 <wire x1="0.95" y1="0.5" x2="0.95" y2="-0.5" width="0.05" layer="21"/>
 <wire x1="0.95" y1="-0.5" x2="-0.95" y2="-0.5" width="0.05" layer="21"/>
@@ -586,20 +556,6 @@ by exp-lbrs-replace2.ulp</description>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="COAX">
-<description>BNC Schematic</description>
-<wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.254" x2="-0.762" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.254" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="R_SMD">
 <wire x1="-2.54" y1="1.905" x2="-1.27" y2="-1.27" width="0.3048" layer="94"/>
 <wire x1="-1.27" y1="-1.27" x2="0" y2="1.905" width="0.3048" layer="94"/>
@@ -658,34 +614,6 @@ by exp-lbrs-replace2.ulp</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BNC" prefix="X">
-<description>BNC Connector.</description>
-<gates>
-<gate name="G$1" symbol="COAX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-H" package="BNC90">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="12345"/>
-</technology>
-</technologies>
-</device>
-<device name="-V" package="BNC-V">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1360,13 +1288,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="U1" library="differential-buffer" deviceset="AD8421" device="">
 <attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
 </part>
-<part name="OUT_CH0" library="connector-jqi" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="GND12" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="IN_CH0" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="R2" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
 <attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
@@ -1406,13 +1328,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="U2" library="differential-buffer" deviceset="AD8421" device="">
 <attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
 </part>
-<part name="OUT_CH1" library="connector-jqi" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="GND5" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="IN_CH1" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="R4" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
 <attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
@@ -1452,13 +1368,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="U3" library="differential-buffer" deviceset="AD8421" device="">
 <attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
 </part>
-<part name="OUT_CH2" library="connector-jqi" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="GND13" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="IN_CH2" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="R7" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
 <attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
@@ -1498,13 +1408,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="U4" library="differential-buffer" deviceset="AD8421" device="">
 <attribute name="PARTNO" value="AD8421ARZ-R7CT-ND"/>
 </part>
-<part name="OUT_CH3" library="connector-jqi" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="GND20" library="Eurocard-HV-piezo-driver" deviceset="GND" device=""/>
-<part name="IN_CH3" library="Eurocard-HV-piezo-driver" deviceset="BNC" device="-H">
-<attribute name="PARTNO" value="A32260-ND"/>
-</part>
 <part name="R10" library="Eurocard-HV-piezo-driver" deviceset="R_SMD" device="R0603" value="1M">
 <attribute name="PARTNO" value="P1.00MHCT-ND"/>
 </part>
@@ -1553,6 +1457,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="P-4" library="Eurocard-HV-piezo-driver" deviceset="V-" device=""/>
+<part name="OUT_CH2" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="OUT_CH3" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="OUT_CH1" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="OUT_CH0" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="IN_CH0" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="IN_CH3" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="IN_CH2" library="connector-jqi" deviceset="BNC" device="-V"/>
+<part name="IN_CH1" library="connector-jqi" deviceset="BNC" device="-V"/>
 </parts>
 <sheets>
 <sheet>
@@ -1562,13 +1474,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="U1" gate="G$1" x="25.4" y="63.5">
 <attribute name="PARTNO" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OUT_CH0" gate="G$1" x="68.58" y="66.04" rot="MR0">
-<attribute name="PARTNO" x="68.58" y="66.04" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND12" gate="1" x="-22.86" y="22.86"/>
-<instance part="IN_CH0" gate="G$1" x="-25.4" y="55.88">
-<attribute name="PARTNO" x="-25.4" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R2" gate="G$1" x="-15.24" y="48.26" rot="R90">
 <attribute name="PARTNO" x="-15.24" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1608,13 +1514,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="U2" gate="G$1" x="20.32" y="154.94">
 <attribute name="PARTNO" x="20.32" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OUT_CH1" gate="G$1" x="63.5" y="157.48" rot="MR0">
-<attribute name="PARTNO" x="63.5" y="157.48" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND5" gate="1" x="-27.94" y="114.3"/>
-<instance part="IN_CH1" gate="G$1" x="-30.48" y="147.32">
-<attribute name="PARTNO" x="-30.48" y="147.32" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R4" gate="G$1" x="-20.32" y="139.7" rot="R90">
 <attribute name="PARTNO" x="-20.32" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1654,13 +1554,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="U3" gate="G$1" x="-96.52" y="157.48">
 <attribute name="PARTNO" x="-96.52" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OUT_CH2" gate="G$1" x="-53.34" y="160.02" rot="MR0">
-<attribute name="PARTNO" x="-53.34" y="160.02" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND13" gate="1" x="-144.78" y="116.84"/>
-<instance part="IN_CH2" gate="G$1" x="-147.32" y="149.86">
-<attribute name="PARTNO" x="-147.32" y="149.86" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R7" gate="G$1" x="-137.16" y="142.24" rot="R90">
 <attribute name="PARTNO" x="-137.16" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1700,13 +1594,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="U4" gate="G$1" x="-101.6" y="66.04">
 <attribute name="PARTNO" x="-101.6" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OUT_CH3" gate="G$1" x="-58.42" y="68.58" rot="MR0">
-<attribute name="PARTNO" x="-58.42" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND20" gate="1" x="-149.86" y="25.4"/>
-<instance part="IN_CH3" gate="G$1" x="-152.4" y="58.42">
-<attribute name="PARTNO" x="-152.4" y="58.42" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R10" gate="G$1" x="-142.24" y="50.8" rot="R90">
 <attribute name="PARTNO" x="-142.24" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1755,6 +1643,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </instance>
 <instance part="P+5" gate="1" x="63.5" y="198.12" rot="MR0"/>
 <instance part="P-4" gate="1" x="71.12" y="170.18" rot="MR0"/>
+<instance part="OUT_CH2" gate="G$1" x="-53.34" y="160.02" rot="MR0"/>
+<instance part="OUT_CH3" gate="G$1" x="-58.42" y="68.58" rot="MR0"/>
+<instance part="OUT_CH1" gate="G$1" x="63.5" y="157.48" rot="MR0"/>
+<instance part="OUT_CH0" gate="G$1" x="68.58" y="66.04" rot="MR0"/>
+<instance part="IN_CH0" gate="G$1" x="-25.4" y="55.88"/>
+<instance part="IN_CH3" gate="G$1" x="-152.4" y="58.42"/>
+<instance part="IN_CH2" gate="G$1" x="-147.32" y="149.86"/>
+<instance part="IN_CH1" gate="G$1" x="-30.48" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -1766,9 +1662,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="OUT_CH0" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="66.04" y1="63.5" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="OUT_CH0" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
@@ -1801,9 +1697,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="OUT_CH1" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="60.96" y1="154.94" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="OUT_CH1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -1836,11 +1732,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="OUT_CH2" gate="G$1" pin="2"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="-55.88" y1="157.48" x2="-55.88" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-88.9" y1="121.92" x2="-88.9" y2="124.46" width="0.3048" layer="91"/>
@@ -1871,9 +1762,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="OUT_CH3" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="-60.96" y1="66.04" x2="-60.96" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="OUT_CH3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -1911,10 +1802,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="C18" gate="G$1" pin="+"/>
 <junction x="71.12" y="182.88"/>
 </segment>
+<segment>
+<pinref part="OUT_CH2" gate="G$1" pin="2"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="-55.88" y1="157.48" x2="-55.88" y2="152.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="IN_CH0" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="55.88" x2="-15.24" y2="55.88" width="0.3048" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="53.34" x2="-15.24" y2="55.88" width="0.3048" layer="91"/>
@@ -1922,11 +1817,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <junction x="-15.24" y="55.88"/>
 <pinref part="U1" gate="G$1" pin="IN+"/>
 <wire x1="0" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IN_CH0" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
-<pinref part="IN_CH0" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="53.34" x2="-22.86" y2="40.64" width="0.3048" layer="91"/>
 <wire x1="-22.86" y1="40.64" x2="-22.86" y2="38.1" width="0.3048" layer="91"/>
 <wire x1="-22.86" y1="40.64" x2="-15.24" y2="40.64" width="0.3048" layer="91"/>
@@ -1938,13 +1833,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="U1" gate="G$1" pin="IN-"/>
 <wire x1="-35.56" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="IN_CH0" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="OUT_CH0" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="OUT_CH0" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -2069,7 +1965,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="IN_CH1" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="147.32" x2="-20.32" y2="147.32" width="0.3048" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="144.78" x2="-20.32" y2="147.32" width="0.3048" layer="91"/>
@@ -2077,11 +1972,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <junction x="-20.32" y="147.32"/>
 <pinref part="U2" gate="G$1" pin="IN+"/>
 <wire x1="-5.08" y1="147.32" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="IN_CH1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IN_CH1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="144.78" x2="-27.94" y2="132.08" width="0.3048" layer="91"/>
 <wire x1="-27.94" y1="132.08" x2="-27.94" y2="129.54" width="0.3048" layer="91"/>
 <wire x1="-27.94" y1="132.08" x2="-20.32" y2="132.08" width="0.3048" layer="91"/>
@@ -2093,13 +1988,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="U2" gate="G$1" pin="IN-"/>
 <wire x1="-40.64" y1="162.56" x2="7.62" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="IN_CH1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="OUT_CH1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="157.48" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="OUT_CH1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -2160,7 +2056,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IN_CH2" gate="G$1" pin="1"/>
 <wire x1="-144.78" y1="149.86" x2="-137.16" y2="149.86" width="0.3048" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-137.16" y1="147.32" x2="-137.16" y2="149.86" width="0.3048" layer="91"/>
@@ -2168,11 +2063,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <junction x="-137.16" y="149.86"/>
 <pinref part="U3" gate="G$1" pin="IN+"/>
 <wire x1="-121.92" y1="149.86" x2="-109.22" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IN_CH2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="IN_CH2" gate="G$1" pin="2"/>
 <wire x1="-144.78" y1="147.32" x2="-144.78" y2="134.62" width="0.3048" layer="91"/>
 <wire x1="-144.78" y1="134.62" x2="-144.78" y2="132.08" width="0.3048" layer="91"/>
 <wire x1="-144.78" y1="134.62" x2="-137.16" y2="134.62" width="0.3048" layer="91"/>
@@ -2184,13 +2079,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="U3" gate="G$1" pin="IN-"/>
 <wire x1="-157.48" y1="165.1" x2="-109.22" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="OUT_CH2" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="160.02" x2="-55.88" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="IN_CH2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -2251,7 +2140,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="IN_CH3" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="58.42" x2="-142.24" y2="58.42" width="0.3048" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="-142.24" y1="55.88" x2="-142.24" y2="58.42" width="0.3048" layer="91"/>
@@ -2259,11 +2147,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <junction x="-142.24" y="58.42"/>
 <pinref part="U4" gate="G$1" pin="IN+"/>
 <wire x1="-127" y1="58.42" x2="-114.3" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="IN_CH3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="IN_CH3" gate="G$1" pin="2"/>
 <wire x1="-149.86" y1="55.88" x2="-149.86" y2="43.18" width="0.3048" layer="91"/>
 <wire x1="-149.86" y1="43.18" x2="-149.86" y2="40.64" width="0.3048" layer="91"/>
 <wire x1="-149.86" y1="43.18" x2="-142.24" y2="43.18" width="0.3048" layer="91"/>
@@ -2275,13 +2163,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pinref part="U4" gate="G$1" pin="IN-"/>
 <wire x1="-162.56" y1="73.66" x2="-114.3" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="IN_CH3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="OUT_CH3" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="68.58" x2="-60.96" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="OUT_CH3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -2338,6 +2227,13 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <wire x1="-114.3" y1="68.58" x2="-114.3" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="RG3" gate="G$1" pin="2"/>
 <wire x1="-114.3" y1="71.12" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="OUT_CH2" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="160.02" x2="-55.88" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
